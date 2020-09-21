@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Sinistre";
+    src: url("Sinistre-StCaroline.woff2") format("woff2"),
+         url("Sinistre-StCaroline.woff") format("woff");
+  }
+
+html {
+    font-family: Sinistre;
+    background-color: black;
+    color: gold;
+    text-align: center;
+}
+
+.wrapper {
+    margin-top: 10vh;
+}
+
+#nameDisplay {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 72px;
+}
+
+#armButton {
+    width: 100px;
+    margin: 0 0 20px 0;
+    border-radius: 0;
+    border: 4px inset gold;
+    background-color: gold;
+    font-family: Sinistre;
+}
+
+#armButton:focus {
+    outline: 1px dotted gold;
+}
